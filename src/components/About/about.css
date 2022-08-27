@@ -1,0 +1,32 @@
+.about_back > img {
+    height: 380px;
+    width: 100%;
+}
+
+.about_desc {
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.about_desc > p {
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 20px;
+}
+
+.about_desc > h3 {
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.mar_bottom {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .about_back > img {
+        height: 200px;
+    }
+}

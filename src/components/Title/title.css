@@ -1,0 +1,93 @@
+.background {
+    font-family: 'Inter', sans-serif;
+}
+
+.title > h3 {
+    font-size: 70px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: normal;
+    margin-bottom: 3%;
+}
+
+.title > p {
+    opacity: 0.7;
+    color: #333;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.coming {
+    font-size: 15px;
+    padding: 20px 60px;
+    background: #000;
+    color: #fff;
+    border-radius: 50px;
+    width: fit-content;
+    margin-right: 2%;
+    border: none;
+}
+
+.coming:hover {
+    background: #333;
+}
+
+.learn:hover {
+    background: #eee;
+}
+
+.learn {
+    font-size: 15px;
+    padding: 20px 60px;
+    background: #fff;
+    color: #000;
+    border-radius: 50px;
+    margin-right: 2%;
+    width: fit-content;
+}
+
+.learn > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.title_buttons {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.card_lists {
+    display: flex;
+    margin-top: 5%;
+}
+
+.video {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .title > h3 {
+        font-size: 32px;
+    }
+
+    .title > p {
+        font-size: 20px;
+    }
+
+    .title_buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coming {
+        margin-bottom: 3%;
+    }
+}

@@ -1,0 +1,164 @@
+.footer {
+    background-color: rgba(23, 23, 23, 1);
+    font-family: 'Inter', sans-serif;
+}
+
+.footer1 {
+    display: flex;
+    padding: 43px 0;
+    border-bottom: 0.5px solid rgba(168, 167, 170, 1);
+    gap: 40px;
+}
+
+.footer2 {
+    padding: 22px 0;
+}
+
+.bold {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.col {
+    cursor: pointer;
+    color: rgba(168, 167, 170, 1);
+}
+
+.desc_left>.col {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.term {
+    font-size: 13px;
+}
+
+.col-42 {
+    width: 50%;
+}
+
+
+.col-4 {
+    width: 25%;
+    gap: 20px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.footer2>.col {
+    text-align: right;
+}
+
+.desc_center {
+    display: flex;
+}
+
+.col-4-11 {
+    list-style: none;
+}
+
+.col-4-11>li:first-child {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: rgba(209, 209, 209, 1);
+    cursor: pointer;
+}
+
+.col-4-11>li {
+    padding: 6px 0;
+    color: rgb(168, 167, 170, 1);
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.col-4-11>li:hover {
+    opacity: 0.7;
+}
+
+.desc_right>a {
+    font-size: 30px;
+    margin-right: 20px;
+    color: #ffffff;
+    width: 50px;
+}
+
+.desc_right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.w-8 {
+    width: 32px;
+    height: 32px;
+}
+
+.term {
+    display: flex;
+    align-items: center;
+}
+
+.term>img {
+    width: 50px;
+}
+
+.term>.col {
+    display: flex;
+    margin-bottom: 0 !important;
+}
+
+.term>.col>a {
+    color: #ddd;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.col > a {
+    text-decoration: none;
+    color: #ddd;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer1 {
+        flex-direction: column;
+    }
+
+    .desc_left,
+    .desc_center,
+    .desc_right {
+        width: 100%;
+    }
+
+    .desc_right {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .desc_center {
+        flex-direction: column;
+    }
+
+    .footer2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .term>.col {
+        flex-direction: column;
+    }
+
+    .col-4-11 {
+        padding-left: 0 !important;
+    }
+}

@@ -1,0 +1,57 @@
+.arttists_desc {
+    width: 66.666667%;
+}
+
+.arttists_desc > h4 {
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.arttists_desc > p {
+    opacity: 0.6;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.item {
+    height: 100%;
+}
+
+.mar_top {
+    margin-top: 5%;
+}
+
+.name {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    padding: 15px 20px;
+    background-color: rgba(50, 49, 49, 1);
+    width: fit-content;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    opacity: 0.6;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+.name:hover {
+    opacity: 0.7;
+}
+
+.item {
+    position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+    .arttists_desc > h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .arttists_desc {
+        width: 100%;
+    }
+}

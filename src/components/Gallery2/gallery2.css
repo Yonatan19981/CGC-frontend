@@ -1,0 +1,79 @@
+.gallery2 {
+    margin: 5% 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.previous {
+    position: absolute;
+    top: 35%;
+    color: #aaa;
+    left: 2%;
+    z-index: 1;
+    font-size: 50px;
+}
+
+.next {
+    position: absolute;
+    top: 35%;
+    color: #aaa;
+    right: 2%;
+    font-size: 50px;
+}
+
+.card2 {
+    background: #eee;
+    margin: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card2 > div > img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+
+.card_desc {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.artist_desc {
+    line-height: 50px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 2%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: scroll;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.slider {
+    display: flex;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.item_gallery > img {
+    width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .card_desc > div {
+        font-size: 30px;
+    }
+
+    .artist_desc {
+        line-height: 30px;
+    }
+}
